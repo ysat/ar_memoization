@@ -1,3 +1,5 @@
+Qiita: https://qiita.com/ysat/items/d8a1590891b472cc60d3
+
 # ar_memoization
 ArMemoization is a library for memoize ActiveRecord objects and search there.
 
@@ -30,7 +32,7 @@ class CreateAllTables < ActiveRecord::Migration[5.0]
 end
 ```
 
-app/models/country.rg
+app/models/country.rb
 ```ruby
 class Country < ActiveRecord::Base
   extend ArMemoization::PrimaryMethods
